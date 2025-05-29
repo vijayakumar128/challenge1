@@ -1,0 +1,86 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  position: relative;
+  background-color: hsl(0, 0%, 8%);
+}
+.container {
+  height: 500px;
+  width: 300px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 5px;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 40px;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.box1 {
+  color: hsl(0, 0%, 100%);
+  left: 30px;
+  right: 30px;
+  height: 200px;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+h4 {
+  color: hsl(75, 94%, 57%);
+  position: relative;
+  top: 20px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+p {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  top: 30px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+img {
+  border-radius: 50%;
+  height: 80px;
+  position: relative;
+  left: 110px;
+  top: 30px;
+}
+button {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 8px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+  cursor: pointer;
+}
